@@ -178,7 +178,7 @@ iframe {
 }
 .section .heading {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: #545e69;
   font-size: 24px;
 }
@@ -434,6 +434,36 @@ iframe {
   color: #b0b7bf;
   font-weight: 500;
 }
+/* Music Seciont */
+.my_music .item {
+  margin-bottom:20px;
+}
+.my_music .item:last-child {
+  margin-bottom: 0px;
+}
+
+.my_music .item .title {
+  font-size: 20px;
+  margin-top: 0;
+}
+/* Accolades Section */
+.accolades li {
+  margin-bottom: 16px;
+}
+.accolades li:last-child {
+  margin-bottom: 0px;
+}
+.accolades i {
+  float: left;
+  margin-right: 6px;
+}
+.accolades p {
+  font-size:12px;
+}
+.accolades .section-inner {
+  margin-bottom:0px;
+}
+
 /* Language Section */
 .languages .item {
   margin-bottom: 15px;
